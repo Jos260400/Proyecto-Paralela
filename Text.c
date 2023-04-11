@@ -13,11 +13,11 @@
 //Inicializamos el programa
 void main(){
 	
-//Calculamos el tamaño como tal
-int g=DETECT,o,col=480,row=640,,dir=2,j=8,ff=15,f=4;
+//Calculamos el tamaÃ±o como tal
+int gd=DETECT,gm,col=480,row=640,,dir=2,j=8,ff=15,f=4;
 
 //Mostramos
-initgraph(&g,&o,"c:\\turboc3\\bgi");
+initgraph(&gd,&gm,"c:\\turboc3\\bgi");
 cleardevice();
 while(!kbit())
 {
