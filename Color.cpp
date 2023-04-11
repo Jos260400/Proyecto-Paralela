@@ -12,9 +12,9 @@
 //Inicializamos
 void main()
 {
-	int g = DETECT,o;
+	int gd = DETECT,gm;
 	int x,y,a;
-	initgraph(&g, &o, "C:\\Turboc3\\BGI");
+	initgraph(&gd, &gm, "C:\\Turboc3\\BGI");
 	x=getmaxx()/2;
 	y=getmaxy()/2;
 	for(a=30;a<200;a++)
